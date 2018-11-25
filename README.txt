@@ -12,3 +12,5 @@ Put the .py in the same directory as the MP3s and JSON file, and run the .py lik
 replacing jsonfilename with the actual name (probably the blog name.)
 
 Output- (youtube urls, soundcloud urls, and nameless or skipped files for which renaming failed) are saved to /write_dir.
+
+Known issues: prints errors instead of writing to stderr, doesn't take a list of files as an argument, filename parsing may be locale-dependent (eg. has trouble with Japanese!)
